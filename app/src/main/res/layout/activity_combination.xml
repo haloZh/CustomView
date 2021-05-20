@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:combination="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.testapp.view.TitleBar
+        android:id="@+id/title_bar_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        combination:showHead="true"
+        combination:showTitle="true"
+        />
+
+    <com.example.testapp.view.TitleBar
+        android:id="@+id/title_bar_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_below="@id/title_bar_0"
+        android:layout_alignParentTop="true"
+        combination:showHead="false"
+        combination:showTitle="false"
+        combination:bgColor = "@android:color/holo_green_light"
+        />
+
+    <com.example.testapp.view.TitleBar
+        android:id="@+id/title_bar_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_below="@id/title_bar_1"
+        android:layout_alignParentTop="true"
+        combination:showHead="true"
+        combination:showTitle="false"
+        combination:showBack="false"
+        />
+
+</RelativeLayout>

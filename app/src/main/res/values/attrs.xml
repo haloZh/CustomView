@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="combination">
+        <!--声明一个属性 name format-->
+        <attr name="showHead" format="boolean" />
+        <attr name="showTitle" format="boolean" />
+        <attr name="showBack" format="boolean" />
+        <attr name="bgColor" format="color" />
+    </declare-styleable>
+</resources>
