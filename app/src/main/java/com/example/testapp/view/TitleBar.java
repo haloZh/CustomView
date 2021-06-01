@@ -15,7 +15,6 @@ import android.widget.TextView;
 
 import com.example.testapp.CustomViewAct;
 import com.example.testapp.R;
-import com.example.testapp.view.CircleImageView;
 
 /**
  * @author zhnaghaopneg
